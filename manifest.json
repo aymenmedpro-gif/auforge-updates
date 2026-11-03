@@ -1,0 +1,4 @@
+{
+  "data": "{\"product\":\"auforge-maint\",\"latest\":{\"version\":\"2.2.0\",\"released\":\"2026-11-03\",\"url\":\"https://github.com/aymenmedpro-gif/auforge-updates/releases/download/v2.2.0/AuForgeMaint-Setup-2.2.0.exe\",\"sha256\":\"63b626f9df1bf3c714c8666b6e58872b79607e470a79ce73c3a2f93fa0f4d394\",\"size\":108395839,\"notes\":\"Management overview, live maintenance performance report, wrong-trade transfer, Connect a phone with QR code\"},\"revoked\":[],\"message\":null,\"issued\":\"2026-11-03T10:21:03.252Z\"}",
+  "sig": "scs5t9TBTr9g62sQ52ue0BwtSzCOjkp1i0QnRRnvnukhTZgDgstsEMoztvavaFgftUQlgecxsJ7VmjbuUY-RDA"
+}
