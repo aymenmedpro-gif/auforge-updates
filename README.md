@@ -15,7 +15,7 @@ repository.**
 ## Download (Windows)
 
 The installer is stored in parts (GitHub limits the size of a single file). Download every file in
-[`releases/v2.2.0`](releases/v2.2.0) into one folder and double-click `INSTALL-AuForgeMaint.bat`: it joins the parts,
+[`releases/v2.3.0`](releases/v2.3.0) into one folder and double-click `INSTALL-AuForgeMaint.bat`: it joins the parts,
 checks the result is identical to the original (SHA-256) and starts the installer. Installed copies update
 themselves; they download and verify the parts automatically.
 
