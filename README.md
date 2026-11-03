@@ -12,9 +12,15 @@ public key built into the program and ignore the file if it was changed by anyon
 with the vendor tool (`AuForge-Vendor-Tools.exe` → *Remote control* → *Save*). **Never put the private key in this
 repository.**
 
-To publish a new version:
+## Download (Windows)
 
-1. Create a release with tag `v<version>` and attach `AuForgeMaint-Setup-<version>.exe` (keep that exact name).
-2. In the vendor tool choose *Remote control → Publish a new version*, using the release download link
-   `https://github.com/aymenmedpro-gif/auforge-updates/releases/download/v<version>/AuForgeMaint-Setup-<version>.exe`.
-3. Replace `manifest.json` here with the one the tool saved.
+The installer is stored in parts (GitHub limits the size of a single file). Download every file in
+[`releases/v2.2.0`](releases/v2.2.0) into one folder and double-click `INSTALL-AuForgeMaint.bat`: it joins the parts,
+checks the result is identical to the original (SHA-256) and starts the installer. Installed copies update
+themselves; they download and verify the parts automatically.
+
+## Publishing a new version
+
+1. In the vendor tool choose *Remote control → Publish a new version*, give the version number and the Setup .exe,
+   and answer **y** to *Split into parts*. It writes `releases/v<version>/` and a new `manifest.json`.
+2. Upload that folder and `manifest.json` here (GitHub: *Add file → Upload files*; every part is under 25 MB).
