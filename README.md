@@ -15,7 +15,7 @@ repository.**
 ## Download (Windows)
 
 The installer is stored in parts (GitHub limits the size of a single file). Download every file in
-[`releases/v3.8.5`](releases/v3.8.5) into one folder and double-click `INSTALL-AuForgeCMMS.bat`: it joins the parts,
+[`releases/v3.9.0`](releases/v3.9.0) into one folder and double-click `INSTALL-AuForgeCMMS.bat`: it joins the parts,
 checks the result is identical to the original (SHA-256) and starts the installer. Installed copies update
 themselves; they download and verify the parts automatically.
 
